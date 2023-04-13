@@ -13,6 +13,10 @@
 		CA4D092429E82018008BBFA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4D092329E82018008BBFA5 /* Preview Assets.xcassets */; };
 		CA4D092629E82018008BBFA5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D092529E82018008BBFA5 /* Persistence.swift */; };
 		CA4D092929E82018008BBFA5 /* MyTravels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA4D092729E82018008BBFA5 /* MyTravels.xcdatamodeld */; };
+		CA4D093029E8219C008BBFA5 /* NewsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D092F29E8219C008BBFA5 /* NewsUIView.swift */; };
+		CA4D093229E821C7008BBFA5 /* StoriesUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D093129E821C7008BBFA5 /* StoriesUIView.swift */; };
+		CA4D093429E821D5008BBFA5 /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D093329E821D5008BBFA5 /* MapUIView.swift */; };
+		CA4D093629E821DF008BBFA5 /* AccountUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D093529E821DF008BBFA5 /* AccountUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		CA4D092329E82018008BBFA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA4D092529E82018008BBFA5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CA4D092829E82018008BBFA5 /* MyTravels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTravels.xcdatamodel; sourceTree = "<group>"; };
+		CA4D092F29E8219C008BBFA5 /* NewsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUIView.swift; sourceTree = "<group>"; };
+		CA4D093129E821C7008BBFA5 /* StoriesUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesUIView.swift; sourceTree = "<group>"; };
+		CA4D093329E821D5008BBFA5 /* MapUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
+		CA4D093529E821DF008BBFA5 /* AccountUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 			children = (
 				CA4D091C29E82017008BBFA5 /* MyTravelsApp.swift */,
 				CA4D091E29E82017008BBFA5 /* ContentView.swift */,
+				CA4D092F29E8219C008BBFA5 /* NewsUIView.swift */,
+				CA4D093129E821C7008BBFA5 /* StoriesUIView.swift */,
+				CA4D093329E821D5008BBFA5 /* MapUIView.swift */,
+				CA4D093529E821DF008BBFA5 /* AccountUIView.swift */,
 				CA4D092029E82018008BBFA5 /* Assets.xcassets */,
 				CA4D092529E82018008BBFA5 /* Persistence.swift */,
 				CA4D092729E82018008BBFA5 /* MyTravels.xcdatamodeld */,
@@ -143,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4D093229E821C7008BBFA5 /* StoriesUIView.swift in Sources */,
 				CA4D092629E82018008BBFA5 /* Persistence.swift in Sources */,
+				CA4D093429E821D5008BBFA5 /* MapUIView.swift in Sources */,
+				CA4D093029E8219C008BBFA5 /* NewsUIView.swift in Sources */,
+				CA4D093629E821DF008BBFA5 /* AccountUIView.swift in Sources */,
 				CA4D092929E82018008BBFA5 /* MyTravels.xcdatamodeld in Sources */,
 				CA4D091F29E82017008BBFA5 /* ContentView.swift in Sources */,
 				CA4D091D29E82017008BBFA5 /* MyTravelsApp.swift in Sources */,
