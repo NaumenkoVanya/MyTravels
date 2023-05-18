@@ -64,11 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				CA4D091C29E82017008BBFA5 /* MyTravelsApp.swift */,
-				CA4D091E29E82017008BBFA5 /* ContentView.swift */,
-				CA4D092F29E8219C008BBFA5 /* NewsUIView.swift */,
-				CA4D093129E821C7008BBFA5 /* StoriesUIView.swift */,
-				CA4D093329E821D5008BBFA5 /* MapUIView.swift */,
-				CA4D093529E821DF008BBFA5 /* AccountUIView.swift */,
+				CA4D093729E824DC008BBFA5 /* Views */,
 				CA4D092029E82018008BBFA5 /* Assets.xcassets */,
 				CA4D092529E82018008BBFA5 /* Persistence.swift */,
 				CA4D092729E82018008BBFA5 /* MyTravels.xcdatamodeld */,
@@ -83,6 +79,18 @@
 				CA4D092329E82018008BBFA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA4D093729E824DC008BBFA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D091E29E82017008BBFA5 /* ContentView.swift */,
+				CA4D092F29E8219C008BBFA5 /* NewsUIView.swift */,
+				CA4D093129E821C7008BBFA5 /* StoriesUIView.swift */,
+				CA4D093329E821D5008BBFA5 /* MapUIView.swift */,
+				CA4D093529E821DF008BBFA5 /* AccountUIView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
